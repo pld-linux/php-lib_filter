@@ -12,6 +12,7 @@ Source0:	http://code.iamcal.com/php/lib_filter/lib_filter_r%{version}.zip
 URL:		http://iamcal.com/publish/articles/php/processing_html/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.461
+BuildRequires:	unzip
 Requires:	php-common >= 4:%{php_min_version}
 Requires:	php-pcre
 BuildArch:	noarch
