@@ -1,6 +1,5 @@
 %define		php_min_version 5.0.0
 %define		pkgname	lib_filter
-%include	/usr/lib/rpm/macros.php
 Summary:	An HTML filtering library in PHP
 Name:		php-%{pkgname}
 Version:	1.15
